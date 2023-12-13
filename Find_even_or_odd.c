@@ -10,13 +10,13 @@ void main()
 
 	// method-1
 	int n1=n;
-	if(n1%2==0) printf("even\n");
-	else printf("odd\n");
+	if(n1%2==0) pf("even\n");
+	else pf("odd\n");
 
 	// method-2
 	
-	if(n1&1) printf("odd\n");
-	else printf("even\n");
+	if(n1&1) pf("odd\n");
+	else pf("even\n");
 	
 
 }
